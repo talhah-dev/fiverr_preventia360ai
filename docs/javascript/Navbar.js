@@ -1,11 +1,11 @@
 const navbar = document.getElementById("navbar");
 
 const navLinks = [
-  { href: "#", label: "Gift Health" },
-  { href: "#", label: "Fit2Fly" },
-  { href: "#", label: "Sahayak" },
-  { href: "#", label: "Call-On-Doc" },
-  { href: "#", label: "Providers" }
+  { href: "coming-soon.html", label: "Gift Health" },
+  { href: "coming-soon.html", label: "Fit2Fly" },
+  { href: "coming-soon.html", label: "Sahayak" },
+  { href: "coming-soon.html", label: "Call-On-Doc" },
+  { href: "coming-soon.html", label: "Providers" }
 ];
 
 const desktopLinks = navLinks
@@ -14,7 +14,7 @@ const desktopLinks = navLinks
 
 const mobileLinks = navLinks
   .map(
-    (link) => `<li><a class="flex items-center rounded-xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-slate-200 transition hover:bg-slate-50" href="${link.href}">${link.label}</a></li>`
+    (link) => `<li><a class="flex items-center rounded-xl px-4 py-3 text-sm font-semibold text-slate-900 ring-1 ring-slate-200 transition hover:bg-[#F5F7FA]" href="${link.href}">${link.label}</a></li>`
   )
   .join("");
 
@@ -34,7 +34,7 @@ if (navbar) {
           </nav>
 
           <div class="hidden md:flex items-center shrink-0">
-            <a href="#" id="ctaBtn" class="inline-flex rounded-full items-center justify-center bg-black px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-slate-800">
+            <a href="coming-soon.html" id="ctaBtn" class="inline-flex rounded-full items-center justify-center bg-[#1A2B4C] px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-[#233A61]">
               Login/Sign Up
             </a>
           </div>
@@ -44,7 +44,7 @@ if (navbar) {
             type="button"
             aria-label="Open menu"
             aria-expanded="false"
-            class="inline-flex h-10 w-10 shrink-0 items-center justify-center  text-slate-900 transition hover:bg-slate-50 md:hidden"
+            class="inline-flex h-10 w-10 shrink-0 items-center justify-center  text-slate-900 transition hover:bg-[#F5F7FA] md:hidden"
           >
             <i class="fa-solid fa-bars text-base"></i>
           </button>
@@ -68,7 +68,7 @@ if (navbar) {
           id="closeBtn"
           type="button"
           aria-label="Close menu"
-          class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-slate-200 bg-slate-50 text-slate-900 transition hover:bg-slate-100 active:scale-[0.98]"
+          class="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-slate-200 bg-[#F5F7FA] text-slate-900 transition hover:bg-slate-100 active:scale-[0.98]"
         >
           <i class="fa-solid fa-xmark text-lg"></i>
         </button>
@@ -82,7 +82,7 @@ if (navbar) {
         </nav>
 
         <div class="mt-6">
-          <a href="#" class="inline-flex w-full items-center rounded-xl justify-center bg-black px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-800">
+          <a href="coming-soon.html" class="inline-flex w-full items-center rounded-xl justify-center bg-[#1A2B4C] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[#233A61]">
             Login/Sign Up
           </a>
         </div>
@@ -108,9 +108,9 @@ const applyNavStyles = (scrolled = false) => {
       : "relative mt-5 flex items-center justify-between rounded-full border border-white/70 bg-white/92 px-4 py-3 shadow-[0_20px_45px_rgba(15,23,42,0.08)] backdrop-blur transition-all duration-300 sm:px-5";
   }
   navLinksEls.forEach((a) => {
-    a.className = "navLink inline-flex items-center gap-1 text-sm font-medium text-slate-900 transition hover:text-[#009966]";
+    a.className = "navLink inline-flex items-center gap-1 text-sm font-medium text-slate-900 transition hover:text-[#4DB6AC]";
   });
-  if (menuBtn) menuBtn.className = "inline-flex h-10 w-10 shrink-0 items-center justify-center  text-slate-900 transition hover:bg-slate-50 md:hidden";
+  if (menuBtn) menuBtn.className = "inline-flex h-10 w-10 shrink-0 items-center justify-center  text-slate-900 transition hover:bg-[#F5F7FA] md:hidden";
 };
 
 const lockScroll = () => {
@@ -185,4 +185,8 @@ const onScroll = () => {
 window.addEventListener("scroll", onScroll, { passive: true });
 applyNavStyles(false);
 setMenuClosed(true);
+
+
+
+
 
