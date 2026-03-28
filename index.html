@@ -71,11 +71,34 @@
     <main>
         <!-- NAVBAR -->
         <div id="navbar"></div>
-
         <!-- Hero Section -->
-        <section class="bg-white px-2    pb-8 pt-2 lg:pb-12">
+        <section class="bg-white px-2 pb-8 pt-2 lg:pb-12">
             <div class="mx-auto max-w-full">
-                <div class="relative overflow-hidden rounded-2xl bg-slate-950 shadow-[0_30px_70px_rgba(15,23,42,0.18)]">
+                <div class="lg:hidden rounded-[2rem] bg-[#F5F7FA] px-3 pb-5 pt-34 shadow-[0_22px_55px_rgba(15,23,42,0.08)] sm:px-6">
+                    <div class="mx-auto max-w-2xl text-center">
+                        <h1 data-aos="fade-up" class="text-4xl font-bold tracking-tight text-[#1A2B4C] sm:text-5xl">
+                            Predict -Prevent -Preserve
+                        </h1>
+                        <p data-aos="fade-up" data-aos-delay="100"
+                            class="mx-auto mt-5 max-w-2xl text-slate-600 sm:text-lg">
+                            Connecting families with dedicated Sahayaks and virtual consultations to ensure proactive care for you and your loved ones
+                        </p>
+                        <div class="mt-7" data-aos="fade-up" data-aos-delay="200">
+                            <a href="coming-soon.html"
+                                class="inline-flex items-center justify-center rounded-full bg-[#1A2B4C] px-6 py-3 text-sm font-semibold text-white transition hover:bg-[#233A61] sm:px-7">
+                                Protect Your Family Today
+                            </a>
+                        </div>
+                    </div>
+
+                    <div data-aos="zoom-in-up" class="mt-8 overflow-hidden rounded-xl bg-slate-950 shadow-[0_20px_50px_rgba(15,23,42,0.18)]">
+                        <video class="block h-auto w-full" autoplay muted loop playsinline preload="metadata">
+                            <source src="./docs/assets/heroVideo.mp4" type="video/mp4" />
+                        </video>
+                    </div>
+                </div>
+
+                <div class="relative hidden overflow-hidden rounded-2xl bg-slate-950 shadow-[0_30px_70px_rgba(15,23,42,0.18)] lg:block">
                     <video class="absolute inset-0 h-full w-full object-cover" autoplay muted loop playsinline
                         preload="metadata">
                         <source src="./docs/assets/heroVideo.mp4" type="video/mp4" />
@@ -1422,6 +1445,8 @@
 </body>
 
 </html>
+
+
 
 
 
