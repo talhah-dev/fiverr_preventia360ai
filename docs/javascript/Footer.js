@@ -7,7 +7,7 @@ if (footer) {
       <div class="border-b border-white/10 py-10 sm:py-12">
         <div class="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div class="max-w-3xl">
-            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#4DB6AC]">Predict • Prevent • Preserve</p>
+            <p class="text-sm font-semibold uppercase tracking-[0.28em] text-[#4DB6AC]">Predict - Prevent - Preserve</p>
             <h2 class="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-4xl">Care designed to keep families supported at every stage.</h2>
             <p class="mt-4 max-w-2xl text-sm leading-7 text-white/72 sm:text-base">
               From prevention programs and personal Sahayaks to virtual consultations and provider support,
@@ -29,7 +29,7 @@ if (footer) {
       <div class="grid gap-10 py-12 lg:grid-cols-12 lg:gap-12 lg:py-14">
         <div class="lg:col-span-5">
           <a href="index.html" class="inline-flex items-center">
-            <img src="./docs/assets/logo.png" alt="Preventia360 logo" class="h-14 w-auto object-contain sm:h-16" />
+            <img src="./docs/assets/logo.png" alt="Preventia360 logo" class="h-14 w-auto object-contain sm:h-16 invert brightness-0" />
           </a>
 
           <p class="mt-5 max-w-xl text-sm leading-7 text-white/72 sm:text-base">
@@ -69,7 +69,7 @@ if (footer) {
                 <li><a class="transition hover:text-[#4DB6AC]" href="#fit2fly">Fit2Fly</a></li>
                 <li><a class="transition hover:text-[#4DB6AC]" href="#sahayak">Sahayak</a></li>
                 <li><a class="transition hover:text-[#4DB6AC]" href="#call-on-doc">Call-On-Doc</a></li>
-                <li><a class="transition hover:text-[#4DB6AC]" href="#careers">Providers</a></li>
+                <li><a class="transition hover:text-[#4DB6AC]" href="provider-network.html">Providers</a></li>
               </ul>
             </div>
 
@@ -78,7 +78,7 @@ if (footer) {
               <ul class="mt-4 space-y-3 text-sm text-white/72">
                 <li><a class="transition hover:text-[#4DB6AC]" href="#contact-us">Contact Us</a></li>
                 <li><a class="transition hover:text-[#4DB6AC]" href="#faq">FAQ</a></li>
-                <li><a class="transition hover:text-[#4DB6AC]" href="#careers">Careers</a></li>
+                <li><a class="transition hover:text-[#4DB6AC]" href="provider-network.html">Careers</a></li>
                 <li><a class="transition hover:text-[#4DB6AC]" href="#testimonials">Testimonials</a></li>
               </ul>
             </div>
@@ -103,6 +103,7 @@ if (footer) {
   </footer>
   `;
 }
+
 
 
 
